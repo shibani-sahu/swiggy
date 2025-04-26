@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def chocolate(request):
     return HttpResponse("I alwaya eat chocolates")
+
+def first(request):
+    return render(request,'first.html')
